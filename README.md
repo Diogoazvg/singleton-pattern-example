@@ -6,11 +6,14 @@ Explore a collection of diverse and well-commented Ruby code challenges, showcas
 
 ## Highlights:
 
-- **Singleton:**
+- **Classic Singleton Pattern:**
+In this example, the SingletonClass has a private constructor to prevent direct instantiation. The instance class method
+is used to create and return the single instance of the class. Subsequent calls to instance return the same instance.
 
-
-- **Singleton:**
-
+- **Module-based Singleton Pattern:**
+In this example, the Singleton pattern is implemented using a module. The SingletonModule module has a private
+constructor, and the instance method is used to create and return the single instance of the module. Subsequent calls to
+instance return the same instance.
 
 ## Usage:
 
